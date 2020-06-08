@@ -11,7 +11,7 @@ Shopping web app prototype
 
 
 ### Database Architecture
-![Data Modeling](amazon%20%Schema.png)
+![Data Modeling](amazon%20Schema.png)
 
 ### Cloud Native Architecture
 The application is designed using cloud native technologies, specifically AWS. The frontend will be served as a static website from an S3 bucket. The authentication and authorization will be via third party social identity providers using AWS Cognito. The stateless NodeJS servers will be running as Docker containers in an AWS ECS cluster. To provide global latency-free access to the application, the website will be served via a CloudFront CDN
