@@ -2,8 +2,15 @@
 Shopping web app prototype
  
    
-# Abstract 
-
+# Features Implemented
+CQRS split- (command query responsibility segregation) and event sourcing to the respective topic.
+Redis Master-slave cluster with sentinel to backup and also load-balanced reads.
+Distributed multi-broker and multi zookeeper Kafka.
+Server powered by Kubernetes, to ensure easy scaling, rolling updates, and rollouts.
+Content delivery network(cloud front) for edge locations and route 53 for a latency based routing.
+Sequelize ORM for MySQL and mongoose ODM for MongoDB
+Transactions for mysql writes.
+Code commit pipelines.
 
 
 ### Architecture
