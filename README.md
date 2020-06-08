@@ -5,10 +5,9 @@ Shopping web app prototype
 # Abstract 
 
 
-# Technology
 
 ### Architecture
-
+![Cloud Distributed Architecture](amazonArchitecture.png)
 
 ### Database Architecture
 ![Data Modeling](amazon%20Schema.png)
