@@ -13,7 +13,7 @@ Transactions for mysql writes.
 Code commit pipelines.
 
 
-### Architecture
+# Architecture
 ![Cloud Distributed Architecture](amazonArchitecture.png)
 
 ### Database Architecture
